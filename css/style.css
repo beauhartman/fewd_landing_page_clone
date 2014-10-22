@@ -42,6 +42,10 @@ ol, ul {
 /* End of Reset */
 /* Start of Custom Styles */
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .content {
     box-sizing: border-box;
     padding: 0 15px;
@@ -65,7 +69,6 @@ ol, ul {
 
 .top-navigation .links {
     float: right;
-    font-family: 'Roboto', sans-serif;
     color: #838994;
     font-size: 16px;
     margin-top: 25px;
@@ -85,6 +88,10 @@ ol, ul {
 .top-navigation .links li:hover {
     cursor: pointer;
     color: #333333;
+}
+
+.main-background {
+
 }
 
 .main-background-content {
@@ -109,23 +116,32 @@ ol, ul {
 	margin-top: 40px;
 	margin-right: 10px;
 	margin-left: 10px;
-	font-size: 25px;
 }
 
-.learn-more {
+.learn-more-button {
 	height: 57px;
 	width: 155px;
 	background-color: #f15a29;
 	color: white;
 	border-radius: 3px;
-	border-color: #f15a29;
-	font-size: 20px;
-	border-bottom: none;
+	border-color: transparent;
+    font-size: 25px;
 }
 
-.watch-the-video {
+.watch-the-video-button {
 	height: 57px;
 	width: 250px;
-	opacity: 0;
-	text-align: right;
+    color: white;
+    margin-top: 10px;
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 25px;
+}
+
+.play-icon {
+	height: 34px;
+	width: 34px;
+    margin-left: -10px;
+    margin-right: 20px;
+    font-size: 25px;
 }
