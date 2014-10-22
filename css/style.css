@@ -149,7 +149,7 @@ body {
 /* Third Section */
 
 .cases {
-
+    text-align: center;
 }
 
 .cases h2 {
@@ -157,4 +157,26 @@ body {
     font-weight: lighter;
     margin-top: 400px;
     text-align: center;
+}
+
+.devices {
+    max-width: 285px;
+    display: inline-block;
+    /* styles to assist with debugging */
+    box-sizing: border-box;
+    height: 400px;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 40px;
+}
+
+.devices > h1 {
+    font-size: 25px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.devices > p {
+    font-size: 18px;
+    line-height: 1.538461538;
 }
