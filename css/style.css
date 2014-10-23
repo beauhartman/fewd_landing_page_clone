@@ -44,6 +44,8 @@ ol, ul {
 
 body {
     font-family: 'Roboto', sans-serif;
+    margin-top: 0;
+    margin-left: 0;
 }
 
 .content {
@@ -57,6 +59,8 @@ body {
     background-color: #fff;
     position: fixed;
     width: 100%;
+    margin-top: 0;
+    margin-left: 0;
 }
 
 .top-navigation > .content {
@@ -184,3 +188,56 @@ body {
 }
 
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+/* Footer Section */
+
+.social > .content {
+    margin: 0 auto;
+    width: 970px;
+    height: 70px;
+}
+
+.social-content {
+    text-align: center;
+}
+
+.social > .content > h4 {
+    margin-bottom: 15px;
+}
+
+.company {
+    float: left;
+}
+
+.shop {
+    float: center;
+}
+
+.support {
+    float: right;
+}
+
+.footer-lists {
+    width: 300px;
+    height: 190px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer-lists > h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.lists > li {
+    font-size: 20px;
+    color: #838994;
+    text-align: left;
+    line-height: 135%
+}
+
+.horizontal-rule {
+    width: 970px;
+    color: #838994;
+}
