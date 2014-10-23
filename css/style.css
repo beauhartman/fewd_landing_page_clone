@@ -96,10 +96,6 @@ body {
     color: #333333;
 }
 
-.main-background {
-
-}
-
 .main-background-content {
 	position: relative;
 	margin-top: -470px;
@@ -188,6 +184,45 @@ body {
 }
 
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+/* Buy Now Section */
+
+.buy-now-div {
+    position: relative;
+    opacity: 0;
+    margin: 0 auto;
+}
+
+.buy-now-content {
+    margin-top: -670px;
+    margin-left: 327px;
+}
+
+.buy-now-content > h3 {
+    font-size: 25px;
+    color: #f15a29;
+    margin-bottom: 20px;
+}
+
+.buy-now-content > p {
+    color: #4c5058;
+    max-width: 240px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.buy-now-button {
+    height: 57px;
+    width: 155px;
+    background-color: #f15a29;
+    color: white;
+    border-radius: 3px;
+    border-color: transparent;
+    font-size: 20px;
+    margin-bottom: 145px;
+}
 
 /* Footer Section */
 
