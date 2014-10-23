@@ -59,7 +59,7 @@ body {
     background-color: #fff;
     position: fixed;
     width: 100%;
-    margin-top: 0;
+    margin-top: -15;
     margin-left: 0;
 }
 
@@ -205,18 +205,6 @@ body {
     margin-bottom: 15px;
 }
 
-.company {
-    float: left;
-}
-
-.shop {
-    float: center;
-}
-
-.support {
-    float: right;
-}
-
 .footer-lists {
     width: 300px;
     height: 190px;
@@ -237,7 +225,33 @@ body {
     line-height: 135%
 }
 
+.lists > li:hover {
+    color: red;
+}
+
 .horizontal-rule {
     width: 970px;
     color: #838994;
+}
+
+.footer-footer > h5 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.footer-footer > p {
+    font-size: 20px;
+    color: #838994;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.icons > li {
+    border-radius: 1.25rem;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    text-align: center;
 }
